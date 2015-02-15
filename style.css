@@ -130,7 +130,7 @@ body{
 	opacity: .3;
 }
 
-.twitter, .facebook, .linked-in, .email{
+/*.twitter, .facebook, .linked-in, .email{
 	background-image: url(assets/social_icons.svg);
 	display: block;
 }
@@ -156,6 +156,11 @@ body{
 	height: 17px;
 	width: 22px;
 	background-position: 22px;
+}*/
+
+.ion-at:before {
+content: "\f10f";
+color: #fff;
 }
 
 
