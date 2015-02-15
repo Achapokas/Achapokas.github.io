@@ -130,38 +130,31 @@ body{
 	opacity: .3;
 }
 
-/*.twitter, .facebook, .linked-in, .email{
-	background-image: url(assets/social_icons.svg);
-	display: block;
-}
-
-.email{
-	height: 16px;
-	width:16px;
-}
-
-.facebook{
-	height: 17px;
-	width: 16px;
-	background-position: -94px;
-}
-
-.linked-in{
-	height: 17px;
-	width: 18px;
-	background-position: -189px;
-}
-
-.twitter{
-	height: 17px;
-	width: 22px;
-	background-position: 22px;
-}*/
 
 .ion-at:before {
 content: "\f10f";
 color: #fff;
+font-size: 1.250em;
 }
+
+.ion-social-facebook:before {
+content: "\f231";
+color: #fff;
+font-size: 1.250em;
+}
+
+.ion-social-linkedin-outline:before {
+content: "\f238";
+color: #fff;
+font-size: 1.250em;
+}
+
+.ion-social-twitter:before {
+content: "\f243";
+color: #fff;
+font-size: 1.250em;
+}
+
 
 
 @media (max-width:600px){
